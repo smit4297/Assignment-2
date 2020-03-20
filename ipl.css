@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    #menu ul{
+        list-style: none;
+    }
+    #menu ul ul{
+        display: none;
+    }
+    #menu ul ul ul{
+        margin-left: 200px;
+        top: 0px;
+        position: absolute;
+ 
+    }
+#menu ul li{
+    background-color:#333;
+    border: 2px solid #007eff;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    float: left;
+     color:ghostwhite;
+    font-size: 20px;
+    position: relative;
+ 
+  
+}
+#menu ul li:hover{
+    background-color: #304594;
+ 
+}
+#menu ul li:hover > ul{
+    display: block;
+}
+#ipl
+{
+    float: left;
+    margin-left: 430px;
+    animation-name: hey;
+    animation-duration: 2s;
+}
+#twenty
+{
+    float: right;
+    margin-right: 430px;
+    animation-name: hello;
+    animation-duration: 2s;
+}
+@keyframes hey
+{
+    from{margin-left: 0px;}
+    to{margin-left: 430px;}
+}
+@keyframes hello
+{
+    from{margin-right: 0px;}
+    to{margin-right: 430px;}
+}
+#navbar{
+  background-color: #333;
+}
+#dhoni{
+    width: 220px;
+    float: left;
+    height: 270px; 
+}
+.dhoniinformation
+{
+    margin-top: 10px;
+    width: 1100;
+    color: #031b9d;
+    background: #dad40f;
+    /* float: right; */
+    margin-left: 200px;
+    font-size: 20px;
+}
+#rohitimage{
+        float: left;
+    display: block;
+    margin-left: -224px;
+    margin-top: 6   0px;
+    height: 227px
+}
+.rohitinfo{
+    // margin-top: 100px;
+    width: 1100;
+    color: #dedfe5f2;
+    background: #36299d;
+    margin-left: 200px;
+    font-size: 20px;
+    text-align: justify;
+}
